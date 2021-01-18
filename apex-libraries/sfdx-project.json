@@ -1,0 +1,23 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-di",
+            "default": false
+        },
+        {
+            "path": "apex-mocks",
+            "default": false
+        },
+        {
+            "path": "apex-common",
+            "default": false
+        },
+        {
+            "path": "at4dx",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0"
+}

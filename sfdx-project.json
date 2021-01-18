@@ -1,0 +1,23 @@
+{
+    "packageDirectories": [
+        {
+            "path": "apex-libraries/sfdx-source",
+            "default": false
+        },
+        {
+            "path": "at4dx-samplecode/sfdx-source",
+            "default": false
+        },
+        {
+            "path": "ozan-library",
+            "default": false
+        },
+        {
+            "path": "ozan-app",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "50.0"
+}
