@@ -1,3 +1,3 @@
-trigger LeadTrigger on Lead(before insert, before update) {
+trigger LeadTrigger on Lead(before update) {
     TriggerInjector.handle(Lead.getSObjectType(), new TriggerInjector.TriggerHandlerFieldSetContext());
 }
