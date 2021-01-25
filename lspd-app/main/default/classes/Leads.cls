@@ -20,6 +20,12 @@ public with sharing class Leads extends ApplicationSObjectDomain implements ILea
         }
     }
 
+    public override void onBeforeUpdate(Map<Id, SObject> existingRecords) {
+        for (Lead lead : (List<Lead>) getChangedRecords(new Set<String>{ 'LastName' })) {
+            lead.Company = 'Ozan Meyhane';
+        }
+    }
+
     public interface ILeads extends IApplicationSObjectDomain {
     }
 }
